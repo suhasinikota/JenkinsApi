@@ -10,5 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
     <flow name="mule_devopsFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/devOpsIntegration" doc:name="HTTP"/>
         <set-payload value="#[json:request]" doc:name="Set Payload"/>
+        <logger message="added new logger" level="INFO" doc:name="Logger"/>
     </flow>
 </mule>
