@@ -67,7 +67,7 @@
 					<username>suhasiniko</username>
 					<password>Asritha315</password>
 					<redeploy>true</redeploy>
-					<environment>production</environment>
+					<environment>SANDBOX</environment>
 				</configuration>
 				<executions>
 					<execution>
